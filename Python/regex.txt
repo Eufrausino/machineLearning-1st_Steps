@@ -1,0 +1,9 @@
+As expressões regulares (regex) são formas melhoradas de realizar buscas em strings.
+
+Os principais métodos regex são:
+
+- search: Encontra posições de padrão dentro de uma string, caso exista.
+
+- match: encontrar se o começo da string for igual a um determinado padrão.
+
+- findall: encontrar todas as substrings que se encaixam em determinado padrão.

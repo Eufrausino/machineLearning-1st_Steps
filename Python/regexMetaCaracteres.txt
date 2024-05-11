@@ -1,0 +1,20 @@
+-> . = Qualquer caractere, exceto nova linha
+-> \w = Qualquer caractere alfanumérico
+-> \W = Qualquer caractere não-alfanumérico
+-> \d = Qualquer caractere que seja um dígito entre 0 e 9
+-> \D = Qualquer caractere que não seja um dígito
+-> \s = Espaços em branco
+-> ^<algum caractere> = começa com caractere passado como parâmetro
+-> $<algum caractere> = termina com caractere passado como parâmetro
+-> \<meta caractere> = usa-se antes de meta caracteres para trabalhar com seus valores literais.
+                       Por exemplo: quero ocorrência de w, então: \., busco ocorrências que tem .
+
+Quantidades de vezes que um meta caractere pode aparecer:
+
+-> [] = opcional entre os que estão dentro dos colchetes
+-> () = grupos de caracteres
+-> * = de 0 a mais vezes
+-> ? = 0 ou uma vez
+-> + = 1 ou mais vezes
+-> {m,n} = de m a n vezes
+-> | = Ou 
